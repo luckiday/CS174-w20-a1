@@ -2,7 +2,7 @@
 
 ### Step 1:  Begin with these steps to repository setup:
 
-1. By now you have followed the link to create your assignment repository at https://classroom.github.com/classrooms/55804222-intro-graphics-master-f19-classroom-1. Please use this link once as it will create an repository we will not check for submissions if you use it multiple times. The repository name should lool like **a1-githubusername**. Any others will get removed.
+1. By now you have followed the link to create your assignment repository at https://classroom.github.com/classrooms/55804222-intro-graphics-master-w20. Please use this link once as it will create an repository we will not check for submissions if you use it multiple times. The repository name should lool like **a1-githubusername**. Any others will get removed.
 
 2. As part of this process you will also receive an invite from GitHub to join the class organization which is where all of your class assignments and term project will live.
    * You should also be sure to setup your local git environment and ssh keys to work with GitHub.
@@ -79,6 +79,7 @@ Unfortunately, web developers in practice have to do that fake server thing pret
    ![url bar](docs/image-10.png)
 
 9. Press F1 to open settings, and choose "Default indentation: 2 spaces".  Close settings.
+   
    * This is just so you won't be prevented from matching our formatting.
 
 These steps, and the following ones, may seem like a lot of work but they are part of becoming a real web developer with a good workflow, as opposed to someone who just knows the language.  The biggest key of all to becoming a good developer is actually going be mastering the **debugger** feature, but first for this assignment let's just take it slow and set up our editor.
@@ -96,9 +97,9 @@ Either way this will complete the mapping between your real local files and the 
    ![copy](docs/image-12.png)
 
    * It's going to ask you for permission to modify your local files.  Hit yes.
-   
+  
      ![allow](docs/image-13.png)
-   
+  
    * If this doesn't happen as described, try to find help on setting your local folder as a workspace.
 
      ![url bar](docs/image-14.png)
@@ -139,7 +140,7 @@ Editing directly in Chrome like this is the workflow we will use.  One reason is
      ** For both of the above bullet points, note that you don't have to find specific or exact strings; Chrome supports matching **regular expressions**, for finding all text of a more general pattern.  That's the .* button.
 
 
-#### Step 6:  Continue the next steps to complete homework 0:
+#### Step 6:  Continue the next steps to complete homework 1:
 
 1. With our animation running in Chrome, with DevTools still open to the Sources tab.  Open the file "dependencies.js".  This is under the "Filesystem" tab of the navigator panel, which might be collapsed in the upper corner.
 
@@ -152,11 +153,13 @@ Editing directly in Chrome like this is the workflow we will use.  One reason is
    ![code](docs/image-18.png)
 
 4. On line 39, add the following three items to the JavaScript array, which is all the text enclosed by square brackets [ ].  Add a comma to separate from previous items in the array.
-   * Vec.of(0,1,0), Vec.of(1,0,0), Vec.of(1,1,0)
-
+   
+* Vec.of(0,1,0), Vec.of(1,0,0), Vec.of(1,1,0)
+   
 5. On line 40, add the following three items to the JavaScript array:
-   * Color.of(0,0,1,1), Color.of(0,1,0,1), Color.of(1,1,0,1)
-
+   
+* Color.of(0,0,1,1), Color.of(0,1,0,1), Color.of(1,1,0,1)
+   
 6. Save the file, and reload the page (using Ctrl+Shift+r for Windows, Cmd+Shift+r for Mac).  Switch back to look at your web page window.  The triangle should be a square now, because you just attached a second triangle to it.  If so, your edit worked and your file is saved.  If not, check for green dots and fix it as per above.
 
    ![square](docs/image-19.png)
@@ -166,7 +169,7 @@ Editing directly in Chrome like this is the workflow we will use.  One reason is
 8. Your files should be ready to turn in now, including your trivial change.
 
 
-#### Step 7:  Continue the next steps to turn in homework 0 on GitHub:
+#### Step 7:  Continue the next steps to turn in homework 1 on GitHub:
 
 1. Once you are finished working it is time to 'commit' your work to your remote respository on GitHub. You will want to do this periodically while you are working to make a backup of your work and to make your final submission. We will keep the process very simple by simply 'committing' the master branch of your local repository into the remote repository on GitHub.
 
@@ -185,7 +188,7 @@ $ git commit -m "Description of what I did"
 4. Finally, we need to push these changes up to our remote repository on GitHub. This is a very important step! Without it you are not copying your work back to GitHub and we will not be able to see it if you forget.
 
 ```bash
-$ git push remote origin
+$ git push
 ```
 
 5. You can repeat these commands as often as you feel the need as your work on your assignment. However, again, you must always make a final push to GitHub when you are finished in order to submit your work. We will make a copy of all assignments at the assignment deadline. That implies two things. First, make your final push to GitHub ahead of time and second, any pushes you make after the deadline will not be seen by us.
