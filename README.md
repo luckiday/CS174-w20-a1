@@ -1,21 +1,7 @@
 # Assignment #1
 
-### Step 1:  Begin with these steps to repository setup:
 
-1. By now you have followed the link to create your assignment repository at https://classroom.github.com/classrooms/55804222-intro-graphics-master-w20. Please use this link once as it will create an repository we will not check for submissions if you use it multiple times. The repository name should lool like **a1-githubusername**. Any others will get removed.
-
-2. As part of this process you will also receive an invite from GitHub to join the class organization which is where all of your class assignments and term project will live.
-   * You should also be sure to setup your local git environment and ssh keys to work with GitHub.
-
-3. Once your repository is created you will have a copy of the assignment template in your github repository. Now you can clone the repository onto your local computer using the following command. Be sure do execute this command from the directory you wish to locate your work.
-
-```bash
-$ git clone git@github.com:intro-graphics-master-F19/a1-githubusername.git
-```
-
-4. You can now follow the remaining steps of the assignment.
-
-### Step 2:  Now follow these steps to run and modify your project:  
+### Step 1:  Now follow these steps to run and modify your project:  
 
 1. Go to your folder.  The easiest way is to right click the popup that downloaded it, then choose "Show in Folder".
 
@@ -50,7 +36,7 @@ That assumes that step 5's message said port 8000 - otherwise change the number 
 Unfortunately, web developers in practice have to do that fake server thing pretty often to be able to work on their files locally. **Keep the .bat or .command program open while you work.**
 
 
-### Step 3:  Continue the next steps to begin viewing the code.  
+### Step 2:  Continue the next steps to begin viewing the code.  
 
 1. Although any text editor will work on our files, for this class you'll need to use the editor inside of Chrome, because of its debugging tools.  
 
@@ -79,13 +65,13 @@ Unfortunately, web developers in practice have to do that fake server thing pret
    ![url bar](docs/image-10.png)
 
 9. Press F1 to open settings, and choose "Default indentation: 2 spaces".  Close settings.
-   
+  
    * This is just so you won't be prevented from matching our formatting.
 
 These steps, and the following ones, may seem like a lot of work but they are part of becoming a real web developer with a good workflow, as opposed to someone who just knows the language.  The biggest key of all to becoming a good developer is actually going be mastering the **debugger** feature, but first for this assignment let's just take it slow and set up our editor.
 
 
-### Step 4:  Continue the next steps to begin modifying:
+### Step 3:  Continue the next steps to begin modifying:
 
 1. Change from the "Page" inner tab to the "Filesystem" inner tab, which might be collapsed behind the arrow.  This one should be empty.
 
@@ -121,7 +107,7 @@ Be aware that for as long as you have DevTools open, back at browser window you 
 Editing directly in Chrome like this is the workflow we will use.  One reason is that your code immediately changes its behavior as you type.  Even when it's in the middle of running, or as soon as you un-pause it in the debugger.  Elements will move around on the page immediately when you make changes.  This allows you to you dynamically test new code without re-starting your whole animation and losing your place -- without having to wait for your timed scenes to progress to that point again -- or without having to enter the right inputs again.
 
 
-### Step 5:  Continue the next steps to begin using Chrome as a code editor:
+### Step 4:  Continue the next steps to begin using Chrome as a code editor:
 
 1. If you've never learned your way around an IDE for editing code, now is the time to.  Chrome's code editor is kind of in-between in terms of quality:  Better than Windows Notepad or TextEdit, but not quite as good as Notepad++ or Microsoft VSCode.  In order for it to be better than crudely opening your code in notepad, you need to know what basic features to expect from a text editor.  Let's learn them.
 
@@ -140,7 +126,7 @@ Editing directly in Chrome like this is the workflow we will use.  One reason is
      ** For both of the above bullet points, note that you don't have to find specific or exact strings; Chrome supports matching **regular expressions**, for finding all text of a more general pattern.  That's the .* button.
 
 
-#### Step 6:  Continue the next steps to complete homework 1:
+#### Step 5:  Continue the next steps to complete homework 1:
 
 1. With our animation running in Chrome, with DevTools still open to the Sources tab.  Open the file "dependencies.js".  This is under the "Filesystem" tab of the navigator panel, which might be collapsed in the upper corner.
 
@@ -153,13 +139,13 @@ Editing directly in Chrome like this is the workflow we will use.  One reason is
    ![code](docs/image-18.png)
 
 4. On line 39, add the following three items to the JavaScript array, which is all the text enclosed by square brackets [ ].  Add a comma to separate from previous items in the array.
-   
-* Vec.of(0,1,0), Vec.of(1,0,0), Vec.of(1,1,0)
-   
+  
+  * Vec.of(0,1,0), Vec.of(1,0,0), Vec.of(1,1,0)
+  
 5. On line 40, add the following three items to the JavaScript array:
-   
-* Color.of(0,0,1,1), Color.of(0,1,0,1), Color.of(1,1,0,1)
-   
+  
+  * Color.of(0,0,1,1), Color.of(0,1,0,1), Color.of(1,1,0,1)
+  
 6. Save the file, and reload the page (using Ctrl+Shift+r for Windows, Cmd+Shift+r for Mac).  Switch back to look at your web page window.  The triangle should be a square now, because you just attached a second triangle to it.  If so, your edit worked and your file is saved.  If not, check for green dots and fix it as per above.
 
    ![square](docs/image-19.png)
@@ -167,29 +153,4 @@ Editing directly in Chrome like this is the workflow we will use.  One reason is
 7. If you typed the wrong thing, you could get console errors, a blank web page, or missing triangles.  Later on we'll show you how to use the debugger and the console together to approach errors in a smart way.  For now, just type it right.
 
 8. Your files should be ready to turn in now, including your trivial change.
-
-
-#### Step 7:  Continue the next steps to turn in homework 1 on GitHub:
-
-1. Once you are finished working it is time to 'commit' your work to your remote respository on GitHub. You will want to do this periodically while you are working to make a backup of your work and to make your final submission. We will keep the process very simple by simply 'committing' the master branch of your local repository into the remote repository on GitHub.
-
-2. The first step is to add any new files into the respository so they can be tracked.
-
-```bash
-$ git add *
-```
-
-3. Then we commit any new and or changed files to the repository. The text after the -m is for you to describe what is included in this commit to the respository.
-
-```bash
-$ git commit -m "Description of what I did"
-```
-
-4. Finally, we need to push these changes up to our remote repository on GitHub. This is a very important step! Without it you are not copying your work back to GitHub and we will not be able to see it if you forget.
-
-```bash
-$ git push
-```
-
-5. You can repeat these commands as often as you feel the need as your work on your assignment. However, again, you must always make a final push to GitHub when you are finished in order to submit your work. We will make a copy of all assignments at the assignment deadline. That implies two things. First, make your final push to GitHub ahead of time and second, any pushes you make after the deadline will not be seen by us.
 
