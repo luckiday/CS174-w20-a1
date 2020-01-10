@@ -1,7 +1,7 @@
 # Assignment #1
 
 
-### Step 1:  Now follow these steps to run and modify your project:  
+### Step 1:  Follow these steps to run and modify your project:  
 
 1. Go to your folder.  The easiest way is to right click the popup that downloaded it, then choose "Show in Folder".
 
@@ -60,7 +60,7 @@ Unfortunately, web developers in practice have to do that fake server thing pret
 
    ![navigator](docs/image-09.png)
 
-8. You should see all the files you downloaded from GitHub here.  Click them open to make sure you can see the code.  Now you can read it all here.
+8. You should see all the files you downloaded here.  Click them open to make sure you can see the code.  Now you can read it all here.
 
    ![url bar](docs/image-10.png)
 
